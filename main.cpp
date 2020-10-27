@@ -14,5 +14,14 @@ int main()
         cout<<a[i]<<endl;
     }
 
+    cout<<"Numero: ";
+    for(int i=0;i<TAM;++i){
+        if(a[i]>='0' and a[i]<='9'){
+            cout<<a[i];
+        }
+    }
+
+    cout<<endl;
+
     return 0;
 }
